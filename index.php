@@ -18,64 +18,64 @@ $controller = new RouteController();
 
 
 switch ($request) {
-    case '/learnengg/' :
+    case 'https://testlearnengg.herokuapp.com/' :
         $controller->home();
         break;
-    case '/learnengg/iti' :
+    case 'https://testlearnengg.herokuapp.com/iti' :
         $controller->iti();
         break;
-    case '/learnengg/aboutus' :
+    case 'https://testlearnengg.herokuapp.com/aboutus' :
         $controller->aboutus();
         break;
-    case '/learnengg/products' :
+    case 'https://testlearnengg.herokuapp.com/products' :
         $controller->products();
         break;
-    case '/learnengg/development-process' :
+    case 'https://testlearnengg.herokuapp.com/development-process' :
         $controller->development_process();
         break;
-    case '/learnengg/inviting-contributions' :
+    case 'https://testlearnengg.herokuapp.com/inviting-contributions' :
         $controller->inviting_contributions();
         break;  
-    case '/learnengg/supports' :
+    case 'https://testlearnengg.herokuapp.com/supports' :
         $controller->supports();
         break;      
-    case '/learnengg/diploma' :
+    case 'https://testlearnengg.herokuapp.com/diploma' :
         $controller->diploma();
         break;    
-    case '/learnengg/be-btech' :
+    case 'https://testlearnengg.herokuapp.com/be-btech' :
         $controller->be_btech();
         break; 
-    case '/learnengg/certifications' :
+    case 'https://testlearnengg.herokuapp.com/certifications' :
         $controller->certifications();
         break;  
-    case '/learnengg/skill' :
+    case 'https://testlearnengg.herokuapp.com/skill' :
         $controller->skill();
         break; 
-    case '/learnengg/term' :
+    case 'https://testlearnengg.herokuapp.com/term' :
         $controller->term();
         break;
-    case '/learnengg/product-single':
-    // || '/learnengg/iti/electrician'
-    //     || '/learnengg/iti/mechanist'
-    //     || '/learnengg/iti/mechanic-motor-vehicle'
-    //     || '/learnengg/iti/draughtsman-mech'
-    //     || '/learnengg/iti/fitter'
-    //     || '/learnengg/iti/welder'
-    //     || '/learnengg/iti/mechanic-diesel'
-    //     || '/learnengg/iti/turner'
-    //     || '/learnengg/iti/copa'
-    //     || '/learnengg/iti/electronics-mechanic'
-    //     || '/learnengg/iti/plumber'
-    //     || '/learnengg/iti/surveyor'
-    //     || '/learnengg/iti/carpenter'
-    //     || '/learnengg/iti/sewing-technology'
-    //     || '/learnengg/iti/include-the-trade-information-communication-technology-system-maintenance' :
+    case 'https://testlearnengg.herokuapp.com/product-single':
+    // || 'https://testlearnengg.herokuapp.com/iti/electrician'
+    //     || 'https://testlearnengg.herokuapp.com/iti/mechanist'
+    //     || 'https://testlearnengg.herokuapp.com/iti/mechanic-motor-vehicle'
+    //     || 'https://testlearnengg.herokuapp.com/iti/draughtsman-mech'
+    //     || 'https://testlearnengg.herokuapp.com/iti/fitter'
+    //     || 'https://testlearnengg.herokuapp.com/iti/welder'
+    //     || 'https://testlearnengg.herokuapp.com/iti/mechanic-diesel'
+    //     || 'https://testlearnengg.herokuapp.com/iti/turner'
+    //     || 'https://testlearnengg.herokuapp.com/iti/copa'
+    //     || 'https://testlearnengg.herokuapp.com/iti/electronics-mechanic'
+    //     || 'https://testlearnengg.herokuapp.com/iti/plumber'
+    //     || 'https://testlearnengg.herokuapp.com/iti/surveyor'
+    //     || 'https://testlearnengg.herokuapp.com/iti/carpenter'
+    //     || 'https://testlearnengg.herokuapp.com/iti/sewing-technology'
+    //     || 'https://testlearnengg.herokuapp.com/iti/include-the-trade-information-communication-technology-system-maintenance' :
 
         $controller->product_single();
         break;  
 
-            case '/learnengg/iti/electrician':
-    // || '/learnengg/iti/electrician'
+            case 'https://testlearnengg.herokuapp.com/iti/electrician':
+    // || 'https://testlearnengg.herokuapp.com/iti/electrician'
 
         $controller->product_single();
         break;     
