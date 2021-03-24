@@ -1686,7 +1686,7 @@
        
     </footer>
     
-    <script src="/js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script type="text/javascript">
         $(function() {
             $("#footer_section").load("footer.html");
