@@ -7,16 +7,16 @@
                          <div class="widget widget--links">
                             <h4 class="widget__title">ABOUT LEARNENGG</h4>
                             <ul class="links">
-                                <li><a href="aboutus">About Us</a></li>
+                                <li><a href="aboutus.html">About Us</a></li>
                                <!--  <li><a href="#">Team</a></li> -->
-                                <li><a href="products">Product</a></li>
-                                <li><a href="development-process">Development Process</a></li>
-                                <li><a href="inviting-contributions">Inviting Contribution</a></li>
-                                <li><a href="supports">Contact Us</a></li>
-                                <li><a href="privacypolicy">Privacy Policy</a></li>                                
-                                <li><a href="term">Terms Of Use</a></li>
-                                <li><a href="refund">Refunds</a></li>
-                                <li><a href="pricing">Pricing</a></li>
+                                <li><a href="products.html">Product</a></li>
+                                <li><a href="development-process.html">Development Process</a></li>
+                                <li><a href="inviting-contributions.html">Inviting Contribution</a></li>
+                                <li><a href="supports.html">Contact Us</a></li>
+                                <li><a href="privacypolicy.html">Privacy Policy</a></li>                                
+                                <li><a href="term.html">Terms Of Use</a></li>
+                                <li><a href="refund.html">Refunds</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
                             </ul>
                         </div><!-- ends: .widget -->
                     </div><!-- ends: .col-lg-3 -->
@@ -66,21 +66,4 @@
             </div>
                    </div><!-- ends: .footer__big -->
        
-        <script src="assets/js/jquery.js"></script>
-
-<!--     <script type="text/javascript">
-        $(function() {
-            $("#footer_section").load("footer.html");
-        });
-
-     </script>   -->
-     
-    <div class="go_top">
-        <span class="la la-angle-up"></span>
-    </div>
-        
-     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDduF2tLXicDEPDMAtC6-NLOekX0A5vlnY"></script>
-     <!-- inject:js-->
-     <script src="assets/js/plugins.min.js"></script>
-     <script src="assets/js/script.min.js"></script>
-     <!-- endinject-->
+    
