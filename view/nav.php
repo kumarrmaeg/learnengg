@@ -1,7 +1,7 @@
     <div class="menu_area menu1">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light px-0">
-                <a class="navbar-brand order-sm-1 order-1" href="index.html"><img src="assets/img/img/header/logo.png" alt="learnengg"/></a>
+                <a class="navbar-brand order-sm-1 order-1" href="index.html"><img src="<?php echo $url; ?>/assets/img/img/header/logo.png" alt="learnengg"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="la la-bars"></span>
                 </button>
@@ -11,11 +11,11 @@
      <div class="navbar-nav m-auto " style="display: contents;">
 
       <span class="nav-item dropdown">
-           <a class="navbar-brand order-sm-1 order-1" href="#"><img src="assets/img/img/header/neat.png" alt="learnengg"/></a>
+           <a class="navbar-brand order-sm-1 order-1" href="#"><img src="<?php echo $url; ?>/assets/img/img/header/neat.png" alt="learnengg"/></a>
            
         </span>
         <span class="nav-item dropdown">
-           <a class="navbar-brand order-sm-1 order-1" href="#"><img src="assets/img/img/header/Z_AICTE Banner.jpg" alt="learnengg"/></a>
+           <a class="navbar-brand order-sm-1 order-1" href="#"><img src="<?php echo $url; ?>/assets/img/img/header/Z_AICTE Banner.jpg" alt="learnengg"/></a>
            
         </span>
     </div>

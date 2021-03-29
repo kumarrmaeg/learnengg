@@ -11,11 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 
     <!-- inject:css-->
-    <link rel="stylesheet" href="assets/css/plugin.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-	 <link rel="stylesheet" href="assets/fa_style.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>/assets/css/plugin.min.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>/assets/css/style.css">
+	 <link rel="stylesheet" href="<?php echo $url; ?>/assets/fa_style.css">
     <!-- endinject -->
-    <link rel="icon" type="assets/image/png" sizes="32x32" href="assets/img/img/favicon.ico">
+    <link rel="icon" type="<?php echo $url; ?>/assets/image/png" sizes="32x32" href="<?php echo $url; ?>/assets/img/img/favicon.ico">
 	
 </head>
 

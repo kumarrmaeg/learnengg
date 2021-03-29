@@ -81,7 +81,7 @@
       <div class="col-lg-12">
         <h4>Delivery Model</h4>
         <div style="text-align: center;">
-       <img src="assets/img/img/delivery_model.jpg">
+       <img src="<?php echo $url; ?>/assets/img/img/delivery_model.jpg">
 
      </div>
       </div>

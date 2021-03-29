@@ -16,7 +16,7 @@
  <section>
       <div class="">
        <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/services.jpg">
+                <img alt="Developement Process" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/services.jpg">
                 <h1 class="dev-header">SKILL TRAINING
 </h1>
             </div>
@@ -56,7 +56,7 @@
                         <div class="iti-bg">
                             <div class="row">
                             <div class="col-lg-3 col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/1.png">
+                                <img class="img-responsive" src="<?php echo $url; ?>/assets/img/img/product/1.png">
                             </div>
                             <div class="col-lg-9 col-md-9 col-xs-9 iti-text ">
                                 <span class="num-text">4303+</span>
@@ -70,7 +70,7 @@
                         <div class="iti-bg">
                             <div class="row">
                             <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/2.png">
+                                <img class="img-responsive" src="<?php echo $url; ?>/assets/img/img/product/2.png">
                             </div>
                             <div class="col-md-9 col-xs-9 iti-text">
                                 <span class="num-text">2419+</span>
@@ -83,7 +83,7 @@
                         <div class="iti-bg">
                             <div class="row">
                             <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/3.png">
+                                <img class="img-responsive" src="<?php echo $url; ?>/assets/img/img/product/3.png">
                             </div>
                             <div class="col-md-9 col-xs-9 iti-text ">
                                 <span class="num-text">483+</span>
@@ -96,7 +96,7 @@
                         <div class="iti-bg">
                             <div class="row">
                             <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/4.png">
+                                <img class="img-responsive" src="<?php echo $url; ?>/assets/img/img/product/4.png">
                             </div>
                             <div class="col-md-9 iti-text ">
                                 <span class="num-text">1569+</span>
@@ -109,7 +109,7 @@
                         <div class="iti-bg">
                             <div class="row">
                             <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/5.png">
+                                <img class="img-responsive" src="<?php echo $url; ?>/assets/img/img/product/5.png">
                             </div>
                             <div class="col-md-9 iti-text disp-inline ">
                                 <span class="num-text">14</span>

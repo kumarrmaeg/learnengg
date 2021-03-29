@@ -18,7 +18,7 @@
     <section>
       <div class="">
         <div class="row margin-zero">
-                <img alt="Content Product" class="full-width dev-hd-img" src="assets/img/img/cont-prdct.jpg">
+                <img alt="Content Product" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/cont-prdct.jpg">
                 <h1 class="dev-header">CONTENT PRODUCT</h1>
             </div>
       </div>

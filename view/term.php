@@ -10,14 +10,15 @@
         <?php include 'nav.php';?>
     <!-- end menu area -->
 
-    </section><!-- end: .header -->
+    </section>
+    <!-- end: .header -->
 
       <!-- end: .header -->
       <section class="padding-top">
         <div class="header-section">
             <div class="container-fluid padding-zero">
                 <div class="row margin-zero">
-                    <img alt="Terms & Conditions" class="full-width dev-hd-img" src="assets/img/term.jpg">                    
+                    <img alt="Terms & Conditions" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/term.jpg">                    
                 </div>
             </div>
         </div>
@@ -79,7 +80,7 @@
                         <p>For sales of any of courses or submitted content in countries other than the Indian Territory, you are responsible for remitting the taxes to the appropriate taxing authority (which may be different to the tax authority in your own location). The company is unable to provide you with tax advice and you should consult your own tax advisor.</p>
                         <p><em>Foreign currency</em></p>
                         <p>Company's online platform will default the sale currency based on your geographic location. The currency of any transaction will match the sale currency displayed to you on the website. You cannot change your displayed currency.</p>
-                        <p>Each foreign currency conversion is processed at a foreign currency conversion rate. This rate generally refers to the amount of one currency that must be paid to buy a certain amount of another currency at a given time. For example, if it costs us$125.00 to buy €100.00, the currency conversion rate of us dollars to euros would be 1.25, and the currency conversion rate from euros to us dollars would be 0.8. Currency conversion rates will vary from time to time.</p>
+                        <p>Each foreign currency conversion is processed at a foreign currency conversion rate. This rate generally refers to the amount of one currency that must be paid to buy a certain amount of another currency at a given time. For example, if it costs us$125.00 to buy â‚¬100.00, the currency conversion rate of us dollars to euros would be 1.25, and the currency conversion rate from euros to us dollars would be 0.8. Currency conversion rates will vary from time to time.</p>
                         <p><b>Refunds</b></p>
                         <p>In some cases, LearnEngg offers students a thirty (30)-day, no-questions-asked money back guarantee on courses that are not purchased through LearnEngg's iOS or android applications. If you, as a student, are unhappy with such a course and request a refund within thirty (30) days of the date that you paid for access to that course, we will provide you with a full refund of the amount you paid. To request a refund, please contact us via support@LearnEngg.com. Please note that if we believe that you are abusing our refund policy in our sole discretion, we reserve the right to suspend or terminate your account and refuse or restrict any and all current or future use of the company products, without any liability to you. In addition, please note that notwithstanding anything to the contrary in these terms, LearnEngg does not provide refunds for courses purchased through our iOS or android applications. All sales of courses through LearnEngg's iOS or android applications are final.</p>
                         <p>You, as an instructor, acknowledge and agree that students have the right to receive a refund as set forth in this section. Neither instructors nor company shall receive any payments, fees or commissions for any transactions for which a refund has been granted. In the event that a student requests a refund for a course after the company  has sent an instructor payment for that course, the company  reserves the right to either (1) deduct the amount of such refund from the next payment to be sent to that instructor, or (2) require that instructor to refund any amounts refunded to students for instructor's course to the extent no additional payments are due from the company  to instructor or such payments due instructor are insufficient to cover the amounts refunded to students.</p>

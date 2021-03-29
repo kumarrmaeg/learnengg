@@ -15,7 +15,7 @@
  <section>
       <div class="">
        <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/contact-us.jpg">
+                <img alt="Developement Process" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/contact-us.jpg">
                <!--  <h1 class="dev-header">Inviting Contribution</h1> -->
             </div>
     </section>

@@ -25,11 +25,11 @@
                         <div class="widget widget--links">
                             <h4 class="widget__title">DISCOVER COURSESS</h4>
                             <ul class="links">
-                                <li><a href="be-btech.html">B.E/B.Tech</a></li>
-                                <li><a href="diploma.html">Diploma/Polytechnic</a></li>
+                                <li><a href="be-btech">B.E/B.Tech</a></li>
+                                <li><a href="diploma">Diploma/Polytechnic</a></li>
                                 <li><a href="titi-trades.html">ITI Trades</a></li>
-                                <li><a href="certifications.html">Certification Courses</a></li>
-                                <li><a href="skill.html">Skill Training</a></li>
+                                <li><a href="certifications">Certification Courses</a></li>
+                                <li><a href="skill">Skill Training</a></li>
                               
                             </ul>
                         </div><!-- ends: .widget -->
@@ -66,7 +66,7 @@
             </div>
                    </div><!-- ends: .footer__big -->
        
-        <script src="assets/js/jquery.js"></script>
+        <script src="<?php echo $url; ?>/assets/js/jquery.js"></script>
 
 <!--     <script type="text/javascript">
         $(function() {
@@ -81,6 +81,6 @@
         
      <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDduF2tLXicDEPDMAtC6-NLOekX0A5vlnY"></script>
      <!-- inject:js-->
-     <script src="assets/js/plugins.min.js"></script>
-     <script src="assets/js/script.min.js"></script>
+     <script src="<?php echo $url; ?>/assets/js/plugins.min.js"></script>
+     <script src="<?php echo $url; ?>/assets/js/script.min.js"></script>
      <!-- endinject-->

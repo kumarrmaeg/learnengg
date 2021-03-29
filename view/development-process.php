@@ -15,7 +15,7 @@
     <section>
       <div class="">
        <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/dev-process.jpg">
+                <img alt="Developement Process" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/dev-process.jpg">
                 <h1 class="dev-header">Our Developement Process</h1>
             </div>
     </section>
@@ -24,7 +24,7 @@
                 <h4 class="text-center">Development Process</h4>
 
 <div class="col-lg-12 text-center">
-    <img src="assets/img/img/dev-process_1.jpg" alt="Development Process">
+    <img src="<?php echo $url; ?>/assets/img/img/dev-process_1.jpg" alt="Development Process">
 </div>
 
 
@@ -50,7 +50,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-            <img alt="Mechanical Subjects" src="assets/img/img/mech-syl.jpg">
+            <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-syl.jpg">
             <figcaption>
                 <h5>SYLLABUS ANALYSIS</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -62,7 +62,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-           <img alt="Mechanical Subjects" src="assets/img/img/mech-sme.jpg">
+           <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-sme.jpg">
             <figcaption>
                 <h5>SME MEETING</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -74,7 +74,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-            <img alt="Mechanical Subjects" src="assets/img/img/mech-cont.jpg">
+            <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-cont.jpg">
             <figcaption>
                 <h5>CONTENT DEVELOPEMENT</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -86,7 +86,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-             <img alt="Mechanical Subjects" src="assets/img/img/mech-story.jpg">
+             <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-story.jpg">
             <figcaption>
                 <h5>STORY BOARD</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -98,7 +98,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-             <img alt="Mechanical Subjects" src="assets/img/img/mech-3d.jpg">
+             <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-3d.jpg">
             <figcaption>
                 <h5>3D ANIMATION</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -110,7 +110,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-            <img alt="Mechanical Subjects" src="assets/img/img/gear-hob.jpg">
+            <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/gear-hob.jpg">
             <figcaption>
                 <h5>GEAR HOBBING MACHINE</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -122,7 +122,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-            <img alt="Mechanical Subjects" src="assets/img/img/mech-img.jpg">
+            <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-img.jpg">
             <figcaption>
                 <h5>IMAGE DRAWING</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -134,7 +134,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-            <img alt="Mechanical Subjects" src="assets/img/img/mech-temp.jpg">
+            <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-temp.jpg">
             <figcaption>
                 <h5>TEMPLATE INTEGRATION</h5>
                 <span class="color-secondary">LearnEngg</span>
@@ -146,7 +146,7 @@
             
     <div class="portfolio-carousel-single">
         <figure>
-            <img alt="Mechanical Subjects" src="assets/img/img/mech-qc.jpg">
+            <img alt="Mechanical Subjects" src="<?php echo $url; ?>/assets/img/img/mech-qc.jpg">
             <figcaption>
                 <h5>QC AND TESTING</h5>
                 <span class="color-secondary">LearnEngg</span>

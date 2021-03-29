@@ -6,14 +6,30 @@ $controller = new RouteController();
 
 
 
- // echo "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+  if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')   
+         $url = "https://";   
+    else  
+         $url = "http://";   
+    // Append the host(domain name, ip) to the URL.   
+    $url.= $_SERVER['HTTP_HOST'];   
+
+    // $url = explode ("/",$url); 
+
+    // Append the requested resource location to the URL   
+    // $url.= $_SERVER['REQUEST_URI'];    
+
+    // $url = str_replace('localhost','learnengg',$url);
+
+    // print_r($url);  
+
+    // echo "http://" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 
-// $segments = explode('/', $request);
-// $numSegments = count($segments); 
-// $currentSegment = $segments[$numSegments - 1];
+    // $segments = explode('/', $request);
+    // $numSegments = count($segments); 
+    // $currentSegment = $segments[$numSegments - 1];
 
-// echo $request;
+    // echo $request;
 
 
 
@@ -72,11 +88,7 @@ switch ($request) {
         || '/learnengg/iti/include-the-trade-information-communication-technology-system-maintenance' :
 
         $controller->product_single();
-        break;  
-
-        // case '/learnengg/iti/electrician':
-        // $controller->product_single();
-        // break;     
+        break;   
                      
     default:
         http_response_code(404);
@@ -84,19 +96,4 @@ switch ($request) {
         break;
 }
 
-// switch ($currentSegment) {
-//     case 'electrician':
-//         $controller->product_single();
-//         break;  
-    
-//     default:
-//         http_response_code(404);
-//         require __DIR__ . '/views/404.php';
-//         break;
-// }
-
-
-// include_once("controller/UserController.php");
-// $controller = new UserController();
-// $controller->invoke();
 ?>

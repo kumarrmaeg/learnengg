@@ -518,7 +518,7 @@
             </div>
         </div><!-- ends: .intro-three-contents -->
         <div class="intro-three--img">
-            <img src="assets/img/img/Header Phone.png" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/Header Phone.png" alt="">
         </div><!-- ends: .intro-three-img -->
     </div><!-- ends: .intro-three -->
 
@@ -532,7 +532,7 @@
 
        
         <div class="offset-lg-3 col-lg-4 col-sm-4 col-xs-12">
-            <img src="assets/img/img/For-students/Landing Page Illustrations_Students_A.png">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/Landing Page Illustrations_Students_A.png">
 
             </div>
 
@@ -565,7 +565,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
            
             <p>How can I access your content Platform?</p>
            </div>
@@ -595,7 +595,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q2.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q2.png" alt="fhfghfg" class="rounded-circle">
            
             <p>Are there free courses? </p>
            </div>
@@ -625,7 +625,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
            
             <p>Is the Content tailored for our University Syllabus?</p>
            </div>
@@ -662,7 +662,7 @@
             </div>
 
             <div class="col-lg-4 col-sm-6 col-xs-12">
-           <img src="assets/img/img/For professors/Landing Page Illustrations_Professors_A.png">
+           <img src="<?php echo $url; ?>/assets/img/img/For professors/Landing Page Illustrations_Professors_A.png">
 
             </div>
 
@@ -686,7 +686,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
            
             <p>Can I use LearnEngg for conducting my online classes? </p>
            </div>
@@ -717,7 +717,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q2.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q2.png" alt="fhfghfg" class="rounded-circle">
            
             <p>Can I share this app with my students? </p>
            </div>
@@ -748,7 +748,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q3.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q3.png" alt="fhfghfg" class="rounded-circle">
            
             <p>What are the subjects I can cover?</p>
            </div>
@@ -783,7 +783,7 @@
 		<div class="row">
        
         <div class="offset-lg-3 col-lg-4 col-sm-4 col-xs-12">
-            <img src="assets/img/img/For institutions/Landing Page Illustrations_Institutions_A.png">
+            <img src="<?php echo $url; ?>/assets/img/img/For institutions/Landing Page Illustrations_Institutions_A.png">
 
             </div>
 
@@ -809,7 +809,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q1.png" alt="fhfghfg" class="rounded-circle">
            
             <p>What does Learnengg Platform have for colleges? </p>
            </div>
@@ -840,7 +840,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q2.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q2.png" alt="fhfghfg" class="rounded-circle">
            
             <p>Does it cover both Engineering & Polytechnic Syllabus? </p>
            </div>
@@ -871,7 +871,7 @@
             <div class="card card-shadow card--testimonial2 linera-bck card-three">
             <div class="card-body text-center">
                  <div style="max-width: 100%">
-            <img src="assets/img/img/For-students/For students_icons_Q3.png" alt="fhfghfg" class="rounded-circle">
+            <img src="<?php echo $url; ?>/assets/img/img/For-students/For students_icons_Q3.png" alt="fhfghfg" class="rounded-circle">
            
             <p>Can a college buy licenses for faculties & Students?</p>
            </div>
@@ -915,7 +915,7 @@
 
        
         <div class="offset-lg-2 col-lg-4 col-sm-4 col-xs-12">
-            <img src="assets/img/img/Phone 01.png">
+            <img src="<?php echo $url; ?>/assets/img/img/Phone 01.png">
 
             </div>
 
@@ -939,7 +939,7 @@
 
        
         <div class="offset-lg-2 col-lg-8 col-sm-8 col-xs-12">
-            <img src="assets/img/img/Features.png">
+            <img src="<?php echo $url; ?>/assets/img/img/Features.png">
 
             </div>
         </div>
@@ -1015,7 +1015,7 @@
                        </div>
 
                                 <div class=" offset-lg-1 col-lg-4 col-sm-6 col-xs-12 " >
-                  <img src="assets/img/img/engineers-day.jpeg" alt="engineersday">
+                  <img src="<?php echo $url; ?>/assets/img/img/engineers-day.jpeg" alt="engineersday">
 
    
                                       </div>
@@ -1030,7 +1030,7 @@
                
                   <div class=" offset-lg-1 col-lg-5 col-sm-6 col-xs-12 ">
                     <video controls autoplay style="height: 346px;">
-                          <source src="assets/vedio1.webm" type="video/webm">
+                          <source src="<?php echo $url; ?>/assets/vedio1.webm" type="video/webm">
                                <source src="vedio1.ogg" type="video/ogg">
                                  Your browser does not support the video tag.
                                      </video>
@@ -1134,7 +1134,7 @@
                   <div class="col-lg-6">
                     <h5>ACADAMIC ADMINISTRATOR</h5>
                     <div class="row">
-                     <div class="col-lg-3"><img src="assets/img/img/testi1.png">
+                     <div class="col-lg-3"><img src="<?php echo $url; ?>/assets/img/img/testi1.png">
                      </div>
                      <div class="col-lg-9">
                     <p class="testimonial text-left">
@@ -1156,7 +1156,7 @@
                    <div class="col-lg-6">
                      <h5>PROFESSORS</h5>
                    <div class="row">
-                     <div class="col-lg-3"><img src="assets/img/img/Professor_R_Kumar.png">
+                     <div class="col-lg-3"><img src="<?php echo $url; ?>/assets/img/img/Professor_R_Kumar.png">
                      </div>
                      <div class="col-lg-9">
                      <p class="testimonial text-left">
@@ -1177,7 +1177,7 @@
                   <div class="col-lg-6">
                     <h5>ACADAMIC ADMINISTRATOR</h5>
                     <div class="row">
-                     <div class="col-lg-3"><img src="assets/img/img/testi1.png">
+                     <div class="col-lg-3"><img src="<?php echo $url; ?>/assets/img/img/testi1.png">
                      </div>
                      <div class="col-lg-9">
                      <p class="testimonial text-left">
@@ -1195,7 +1195,7 @@
                    <div class="col-lg-6">
                      <h5>PROFESSORS</h5>
                    <div class="row">
-                     <div class="col-lg-3"><img src="assets/img/img/Professor_R_Kumar.png">
+                     <div class="col-lg-3"><img src="<?php echo $url; ?>/assets/img/img/Professor_R_Kumar.png">
                      </div>
                      <div class="col-lg-9">
                     <p class="testimonial text-left">

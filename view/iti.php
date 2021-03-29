@@ -18,7 +18,7 @@
  <section>
       <div class="">
        <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/iti.jpg">
+                <img alt="Developement Process" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/iti.jpg">
                
             </div>
     </section>
@@ -72,7 +72,7 @@
         
 
 <div class="counter counter--3 biz_overlay overlay--primary padding-top">
-        <div class="bg_image_holder" style="background-image: url(&quot;assets/img/cbg2.jpg&quot;); opacity: 1;"><img src="assets/img/img/services.jpg" alt="assets/img/cbg2.jpg"></div>
+        <div class="bg_image_holder" style="background-image: url(&quot;<?php echo $url; ?>/assets/img/cbg2.jpg&quot;); opacity: 1;"><img src="<?php echo $url; ?>/assets/img/img/services.jpg" alt="<?php echo $url; ?>/assets/img/cbg2.jpg"></div>
         <div class="container content_above">
             <div class="row">
                 <div class="col">
@@ -146,7 +146,7 @@
     <div class="row">
                
                 <div class="col-lg-6 col-md-6 col-xs-12 del-img">
-                    <img src="assets/img/img/3dm_class_room.jpg" class="text-center full-width img-responsive" title="learnengg " alt="3DM Class Room">
+                    <img src="<?php echo $url; ?>/assets/img/img/3dm_class_room.jpg" class="text-center full-width img-responsive" title="learnengg " alt="3DM Class Room">
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 iti-digcont">
                     <div class="iti-table">
@@ -180,10 +180,10 @@
                     </div>
                     <div class="row">
                     <div class="col-md-6 digcont-img1">
-                        <img src="assets/img/img/web.png" class="text-center full-width img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/web.png" class="text-center full-width img-responsive">
                     </div>
                     <div class="col-md-6 digcont-img2">
-                        <img src="assets/img/img/mmv.png" class="text-center full-width img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/mmv.png" class="text-center full-width img-responsive">
                     </div>
                 </div>
                 </div>
@@ -211,7 +211,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/1.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/1.jpg" alt="">
             <figcaption>
                <div class="text">
                                             <ul class="block-subjects">
@@ -239,7 +239,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/2.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/2.jpg" alt="">
             <figcaption>
                   <div class="text">
                                             <ul class="block-subjects">
@@ -267,7 +267,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/3.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/3.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -295,7 +295,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/4.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/4.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -323,7 +323,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/5.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/5.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -351,7 +351,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/6.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/6.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -380,7 +380,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/7.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/7.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -409,7 +409,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/8.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/8.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -438,7 +438,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/9.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/9.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -467,7 +467,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/10.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/10.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -496,7 +496,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/11.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/11.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -524,7 +524,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/12.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/12.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -553,7 +553,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/13.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/13.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -582,7 +582,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/14.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/14.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -611,7 +611,7 @@
                     
     <div class="card card-shadow card-one">
         <figure>
-            <img src="assets/img/img/iti/15.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/15.jpg" alt="">
             <figcaption>
                  <div class="text">
                                             <ul class="block-subjects">
@@ -675,7 +675,7 @@
                 
     <div class="card post--card post--card4">
         <figure>
-            <img src="assets/img/img/iti/iti.jpg" alt="iti">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/iti.jpg" alt="iti">
         </figure>
         <div class="card-body">
             <h6><a href="#">ITI</a></h6>
@@ -695,7 +695,7 @@
                 
     <div class="card post--card post--card4">
         <figure>
-            <img src="assets/img/img/iti/instructors.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/instructors.jpg" alt="">
         </figure>
         <div class="card-body">
             <h6><a href="#">INSTRUCTORS</a></h6>
@@ -715,7 +715,7 @@
                 
     <div class="card post--card post--card4">
         <figure>
-            <img src="assets/img/img/iti/students.jpg" alt="">
+            <img src="<?php echo $url; ?>/assets/img/img/iti/students.jpg" alt="">
         </figure>
         <div class="card-body">
             <h6><a href="#">STUDENTS</a></h6>

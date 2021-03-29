@@ -17,7 +17,7 @@
  <section>
       <div class="">
        <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/services.jpg">
+                <img alt="Developement Process" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/services.jpg">
                 <h1 class="dev-header">SKILL TRAINING
 </h1>
             </div>
@@ -77,7 +77,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                         </div>
                     </div>
                     <div class="col-lg-7 col-md-7">
-                        <img src="assets/img/img/img1.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img1.jpg" class="img-responsive">
                     </div>
                 </div>
                 <br>
@@ -86,7 +86,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                 <div class="row">
        
                     <div class="col-md-7">
-                        <img src="assets/img/img/img2.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img2.jpg" class="img-responsive">
                     </div>
                                  <div class="col-md-5 col-lg-5 service">
                         <div class="service-color color1">
@@ -139,7 +139,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img src="assets/img/img/img3.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img3.jpg" class="img-responsive">
                     </div>
                 </div>
 
@@ -148,7 +148,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                 <div class="row">
         
                     <div class="col-md-7">
-                        <img src="assets/img/img/img4.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img4.jpg" class="img-responsive">
                     </div>
                                 <div class="col-md-5 service">
                         <div class="service-color color3">
@@ -194,7 +194,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img src="assets/img/img/img6.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img6.jpg" class="img-responsive">
                     </div>
                 </div>
 
@@ -203,7 +203,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                 <div class="row">
     
                     <div class="col-md-7">
-                        <img src="assets/img/img/img7.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img7.jpg" class="img-responsive">
                     </div>
                                     <div class="col-md-5 service">
                         <div class="service-color color5">
@@ -254,7 +254,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img src="assets/img/img/img8.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img8.jpg" class="img-responsive">
                     </div>
                 </div>
 
@@ -262,7 +262,7 @@ These contents have been delivered in DVD/USB and Play Store apps</p>
                 <div class="row">
            
                     <div class="col-md-7">
-                        <img src="assets/img/img/img9.jpg" class="img-responsive">
+                        <img src="<?php echo $url; ?>/assets/img/img/img9.jpg" class="img-responsive">
                     </div>
                              <div class="col-md-5 service">
                         <div class="service-color color7">

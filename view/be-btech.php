@@ -19,7 +19,7 @@
  <section>
       <div class="">
        <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/be-btech.jpg">
+                <img alt="Developement Process" class="full-width dev-hd-img" src="<?php echo $url; ?>/assets/img/img/be-btech.jpg">
                 <h1 class="dev-header">B.E/B.TECH 4 YEARS ENGINEERING PROGRAM
 </h1>
             </div>
