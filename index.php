@@ -34,58 +34,58 @@ $controller = new RouteController();
 
 
 switch ($request) {
-    case '/learnengg/' :
+    case '/' :
         $controller->home();
         break;
-    case '/learnengg/iti' :
+    case '/iti' :
         $controller->iti();
         break;
-    case '/learnengg/aboutus' :
+    case '/aboutus' :
         $controller->aboutus();
         break;
-    case '/learnengg/products' :
+    case '/products' :
         $controller->products();
         break;
-    case '/learnengg/development-process' :
+    case '/development-process' :
         $controller->development_process();
         break;
-    case '/learnengg/inviting-contributions' :
+    case '/inviting-contributions' :
         $controller->inviting_contributions();
         break;  
-    case '/learnengg/supports' :
+    case '/supports' :
         $controller->supports();
         break;      
-    case '/learnengg/diploma' :
+    case '/diploma' :
         $controller->diploma();
         break;    
-    case '/learnengg/be-btech' :
+    case '/be-btech' :
         $controller->be_btech();
         break; 
-    case '/learnengg/certifications' :
+    case '/certifications' :
         $controller->certifications();
         break;  
-    case '/learnengg/skill' :
+    case '/skill' :
         $controller->skill();
         break; 
-    case '/learnengg/term' :
+    case '/term' :
         $controller->term();
         break;
-    case '/learnengg/product-single'
-    || '/learnengg/iti/electrician'
-        || '/learnengg/iti/mechanist'
-        || '/learnengg/iti/mechanic-motor-vehicle'
-        || '/learnengg/iti/draughtsman-mech'
-        || '/learnengg/iti/fitter'
-        || '/learnengg/iti/welder'
-        || '/learnengg/iti/mechanic-diesel'
-        || '/learnengg/iti/turner'
-        || '/learnengg/iti/copa'
-        || '/learnengg/iti/electronics-mechanic'
-        || '/learnengg/iti/plumber'
-        || '/learnengg/iti/surveyor'
-        || '/learnengg/iti/carpenter'
-        || '/learnengg/iti/sewing-technology'
-        || '/learnengg/iti/include-the-trade-information-communication-technology-system-maintenance' :
+    case '/product-single'
+    || '/iti/electrician'
+        || '/iti/mechanist'
+        || '/iti/mechanic-motor-vehicle'
+        || '/iti/draughtsman-mech'
+        || '/iti/fitter'
+        || '/iti/welder'
+        || '/iti/mechanic-diesel'
+        || '/iti/turner'
+        || '/iti/copa'
+        || '/iti/electronics-mechanic'
+        || '/iti/plumber'
+        || '/iti/surveyor'
+        || '/iti/carpenter'
+        || '/iti/sewing-technology'
+        || '/iti/include-the-trade-information-communication-technology-system-maintenance' :
 
         $controller->product_single();
         break;   
