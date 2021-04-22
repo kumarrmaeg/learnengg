@@ -11168,8 +11168,9 @@
 <!--         <link rel="stylesheet" href="<?php echo $url; ?>/assets/css/itiWeb1.css"> -->
     </head>
 
-    <body>
-        <div data-layer="4241c3a7-69bb-402e-ba6f-bf8060827685" class="itiWeb1">        <div data-layer="f7c5f573-c918-43c9-9738-ca27b02346ae" class="rectangle15"></div>
+    <body style="overflow-x: hidden;">
+      <div class="row">
+      <div data-layer="4241c3a7-69bb-402e-ba6f-bf8060827685" class="itiWeb1">        <div data-layer="f7c5f573-c918-43c9-9738-ca27b02346ae" class="rectangle15"></div>
         <div data-layer="4a99452d-8ee1-4f3e-b144-0a3812b5e727" class="rectangle47"></div>
         <div data-layer="59cb9f09-0d39-4bd3-9185-c95ebdf5b4c2" class="rectangle50"></div>
         <div data-layer="63b3b2fc-8e34-4443-9d46-953d36f91ad4" class="rectangle53"></div>
@@ -11483,7 +11484,7 @@
 </div>
 
 
-    
+    </div>
     </body>
     </html>
             
