@@ -1,1619 +1,821 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-    <?php include('/../links.php');?>
+<head>
+<title>Course</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Lingua project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/course.css">
+<link rel="stylesheet" type="text/css" href="styles/course_responsive.css">
+</head>
 <body>
-    
-    <!-- header area -->
-    <section class="header header--2">
-  
-    <!-- start menu area -->
-        <?php include 'nav.php';?>
-    <!-- end menu area -->
-
-    </section><!-- end: .header -->
-
- <section>
-      <div class="">
-       <div class="row margin-zero">
-                <img alt="Developement Process" class="full-width dev-hd-img" src="assets/img/img/services.jpg">
-                <h1 class="dev-header">SKILL TRAINING
-</h1>
-            </div>
-    </section>
-
-    <section class="product-details padding-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 margin-md-60">
-                    <div class="product-gallery">
-                        
-    <div class="gallery-image-view">
-        <div class="image-view-carousel owl-carousel">
-            <div class="carousel-single" data-hash="image1">
-                <figure><iframe style="width:100%; border-width:0px; height:280px" src="https://www.youtube.com/embed/N7BT2qUOK0k?ref=0" allowfullscreen=""></iframe></figure>
-            </div><!-- ends: .carousel-single -->
-          <!-- ends: .carousel-single -->
-        </div><!-- ends: .image-view-carousel -->
-   <!--      <div class="carousel-thumbs">
-            <ul class="d-flex justify-content-center">
-                <li><iframe style="width:100%; border-width:0px; height:280px" src="https://www.youtube.com/embed/N7BT2qUOK0k?ref=0" allowfullscreen=""></iframe></li>
-               
-            </ul>
-        </div> --><!-- ends: .carousel-thumb -->
-    </div><!-- ends: .gallery-image-view -->
-
-                    </div>
-                </div><!-- ends: .col-lg-5 -->
-                <div class="col-lg-7 offset-lg-1">
-                    <div class="product-info">
-                        <h4>Electronics Mechanic - Package</h4>
-
-                        <div class="col-xs-12 col-sm-2"><h2 class="block-title text-center">Features</h2></div>
-
-                        <div class="row iti-feature margin-top-20">
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="iti-bg">
-                            <div class="row">
-                            <div class="col-lg-3 col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/1.png">
-                            </div>
-                            <div class="col-lg-9 col-md-9 col-xs-9 iti-text ">
-                                <span class="num-text">4303+</span>
-                                <span>Pages of e-Content</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        
-                        <div class="iti-bg">
-                            <div class="row">
-                            <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/2.png">
-                            </div>
-                            <div class="col-md-9 col-xs-9 iti-text">
-                                <span class="num-text">2419+</span>
-                                <span>3D/2D Visuals</span>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="iti-bg">
-                            <div class="row">
-                            <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/3.png">
-                            </div>
-                            <div class="col-md-9 col-xs-9 iti-text ">
-                                <span class="num-text">483+</span>
-                                <span>solved Problems</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="iti-bg">
-                            <div class="row">
-                            <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/4.png">
-                            </div>
-                            <div class="col-md-9 iti-text ">
-                                <span class="num-text">1569+</span>
-                                <span>MCQ</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                        <div class="iti-bg">
-                            <div class="row">
-                            <div class="col-md-3 col-xs-3 iti-icon">
-                                <img class="img-responsive" src="assets/img/img/product/5.png">
-                            </div>
-                            <div class="col-md-9 iti-text disp-inline ">
-                                <span class="num-text">14</span>
-                                <span>Semester Papers</span><span>in Single Dashboard</span>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                  
-                        <p>Each Semester Contains Digital Content of </p>
-                        <div class="product-actions">
-                            <ul class="ulline-height">
-                                <li>110 Hrs Employability Skills</li>
-                                <li>265 Hrs Engineering drawing</li>
-                                <li>530 Hrs Trade theory</li>
-                                <li>180 Hrs Workshop calculation and science</li>
-
-                    </ul>
-                                             </div><!-- ends: .event-share -->
-                    </div>
-                </div><!-- ends: .col-lg-6 -->
-            </div>
-        </div>
-    </section><!-- ends: .product-details -->
-
-    <div class="hr-divider p-bottom-35"></div>
-
-    <section class="product-info-tab">
-
-
-    <div class="tab tab--2">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3 class="text-center">Trade Syllabus</h3>
-                    <div class="tab_nav2">
-                        <ul class="nav justify-content-center" id="myTab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="info_tab1" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">Trade theory</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link  show" id="info_tab2" data-toggle="tab" href="#info2" role="tab" aria-controls="info2" aria-selected="true">Engineering drawing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="info_tab3" data-toggle="tab" href="#info3" role="tab" aria-controls="info3" aria-selected="false">Workshop calculation and science</a>
-                            </li> 
-                              <li class="nav-item">
-                                <a class="nav-link" id="info_tab4" data-toggle="tab" href="#info4" role="tab" aria-controls="info4" aria-selected="false">Employability Skills</a>
-                            </li>
-                          
-
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div><!--end ./container -->
-
-        <div class="tab-content tab--content2 padding-top" id="tabcontent2">
-            <div class="tab-pane animated fadeIn active" id="info" role="tabpanel" aria-labelledby="info_tab1">
-                <div class="container ">
-                    <div class="tab_nav2 text-center">
-                        
-                                    <ul class="nav justify-content-center">
-
-
-                                            <li class="nav-item"><a class="nav-link active" href="#semTrade_theorysemester-1" data-toggle="tab">semester-1</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-2" data-toggle="tab">semester-2</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-3" data-toggle="tab">semester-3</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-4" data-toggle="tab">semester-4</a></li>
-
-                                        
-                                    </ul>
-                               
-                         </div>
-                        </div>
-                           <div class="tab-content tab--content2 padding-top" id="tabcontent3">
-                    <div class="tab-pane animated fadeIn active" id="semTrade_theorysemester-1" role="tabpanel" aria-labelledby="semTrade_theorysemester-1">
-                        <div class="container ">
-                           <div class="accordion accordion_three" id="accordion_three">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse1">
-                        <b><span>Week 1</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;Introduction to NCVT and safety practice
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse1" class="collapse show" aria-labelledby="accordion_three_heading1"
-                 data-parent="#accordion_three">
-                <div class="accordion-contents">
-                         <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> General Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety precautions</span></p>
-                                                                        <p> <span class="spn_line_hght"> Lifting and handling tools</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety practice - Fire extinguishers</span></p>
-                                                                        <p> <span class="spn_line_hght"> Electrical safety</span></p>
-                                                                        <p> <span class="spn_line_hght"> First aid and Electrical mains</span></p>
-                                                                        <p> <span class="spn_line_hght"> Personal protective equipments (PPE's)</span></p>
-                                                                        <p> <span class="spn_line_hght"> 5S concepts and response to emergencies</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading2">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse2"
-                       aria-expanded="false" aria-controls="accordion_threecollapse2">
-                         <b><span>Week 2 &amp;3</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;HAND TOOL SPECIFICATION
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse2" class="collapse" aria-labelledby="accordion_three_heading2" data-parent="#accordion_three">
-                <div class="accordion-contents">
-                       <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Hand tool specifications</span></p>
-                                                                        <p> <span class="spn_line_hght"> Riveting of tags and lugs</span></p>
-                                                                        <p> <span class="spn_line_hght"> Cutting and bending of sheet metals</span></p>
-                                                                        <p> <span class="spn_line_hght"> Chassis and cabinets</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading3">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse3"
-                       aria-expanded="false" aria-controls="accordion_threecollapse3">
-                        <b><span>Week 4 &amp; 5</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;BASICS OF AC AND ELECTRICAL CABLES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse3" class="collapse" aria-labelledby="accordion_three_heading3" data-parent="#accordion_three">
-                <div class="accordion-contents">
-                     <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> circuit concepts</span></p>
-                                                                        <p> <span class="spn_line_hght"> Basics of AC and DC</span></p>
-                                                                        <p> <span class="spn_line_hght"> Insulators</span></p>
-                                                                        <p> <span class="spn_line_hght"> Conductor</span></p>
-                                                                        <p> <span class="spn_line_hght"> Introduction to cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of wires</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Precautions in using cables</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading4">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse4"
-                       aria-expanded="false" aria-controls="accordion_threecollapse4">
-                         <b><span>Week 6</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;CELLS AND BATTERIES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse4" class="collapse" aria-labelledby="accordion_three_heading4" data-parent="#accordion_three">
-                <div class="accordion-contents">
-                      <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Chemical effect of electrical current</span></p>
-                                                                        <p> <span class="spn_line_hght"> Secondary Cell</span></p>
-                                                                        <p> <span class="spn_line_hght"> Preparation of electrolyte</span></p>
-                                                                        <p> <span class="spn_line_hght"> Methods of charging batteries</span></p>
-                                                                        <p> <span class="spn_line_hght"> Grouping of cells</span></p>
-                                                                        <p> <span class="spn_line_hght"> Battery charger</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                             </div>
-
-                                 </div>
-           
-
-                            <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-2" role="tabpanel" aria-labelledby="semTrade_theorysemester-2">
-                  
-                                           <div class="container ">
-                                              <div class="accordion accordion_three" id="accordion_three-sem2">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem2-1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem2-1">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem2-1" class="collapse show" aria-labelledby="accordion_three_heading-sem2-1"
-                 data-parent="#accordion_three-sem2">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-2">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-2"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-2">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-2" class="collapse" aria-labelledby="accordion_three_heading-sem2-2" data-parent="#accordion_three-sem2">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-3">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-3"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-3">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-3" class="collapse" aria-labelledby="accordion_three_heading-sem2-3" data-parent="#accordion_three-sem2">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-4">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-4"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-4">
-                        Friendly and sem2-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-4" class="collapse" aria-labelledby="accordion_three_heading-sem2-4" data-parent="#accordion_three-sem2">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                  </div>
-                         </div>
-
-                            <div class="tab-pane animated fadeIn" id="semTrade_theorysemester-3" role="tabpanel" aria-labelledby="semTrade_theorysemester-3">
-                              <div class="container ">
-                                                         <div class="accordion accordion_three" id="accordion_three-sem3">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem3-1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem3-1">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem3-1" class="collapse show" aria-labelledby="accordion_three_heading-sem3-1"
-                 data-parent="#accordion_three-sem3">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-2">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-2"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-2">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-2" class="collapse" aria-labelledby="accordion_three_heading-sem3-2" data-parent="#accordion_three-sem3">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-3">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-3"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-3">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-3" class="collapse" aria-labelledby="accordion_three_heading-sem3-3" data-parent="#accordion_three-sem3">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-4">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-4"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-4">
-                        Friendly and sem3-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-4" class="collapse" aria-labelledby="accordion_three_heading-sem3-4" data-parent="#accordion_three-sem3">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                    </div>
-                             </div>
-
-                                  <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-4" role="tabpanel" aria-labelledby="semTrade_theorysemester-4">
-                                           <div class="container ">
-                                                            <div class="accordion accordion_three" id="accordion_three-sem4">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem4-1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem4-1">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem4-1" class="collapse show" aria-labelledby="accordion_three_heading-sem4-1"
-                 data-parent="#accordion_three-sem4">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-2">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-2"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-2">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-2" class="collapse" aria-labelledby="accordion_three_heading-sem4-2" data-parent="#accordion_three-sem4">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-3">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-3"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-3">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-3" class="collapse" aria-labelledby="accordion_three_heading-sem4-3" data-parent="#accordion_three-sem4">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-4">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-4"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-4">
-                        Friendly and sem4-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-4" class="collapse" aria-labelledby="accordion_three_heading-sem4-4" data-parent="#accordion_three-sem4">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                     </div>
-                                    </div>
-
-
-        
-                               </div>
-
-                                 </div>
-           
-
-            <div class="tab-pane animated fadeIn show" id="info2" role="tabpanel" aria-labelledby="info_tab2">
-
-                      <div class="container ">
-                               <div class="tab_nav2 text-center">
-                        
-                                    <ul class="nav justify-content-center">
-
-
-                                            <li class="nav-item"><a class="nav-link active" href="#semTrade_theorysemester-eng1" data-toggle="tab">semester-1</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-eng2" data-toggle="tab">semester-2</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-eng3" data-toggle="tab">semester-3</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-eng4" data-toggle="tab">semester-4</a></li>
-
-                                        
-                                    </ul>
-                               
-                         </div>
-                        </div>
-                             <div class="tab-content tab--content2 padding-top" id="tabcontent-eng">
-                        <div class="tab-pane animated fadeIn active" id="semTrade_theorysemester-eng1" role="tabpanel" aria-labelledby="semTrade_theorysemester-eng1">
-                               <div class="container ">
-          <div class="accordion accordion_three" id="accordion_three-eng-sem1">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading1-eng-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse1-eng-sem1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse1-eng-sem1">
-                        <b><span>Week 1</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;Introduction to NCVT and safety practice
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse1-eng-sem1" class="collapse show" aria-labelledby="accordion_three_heading1-eng-sem1"
-                 data-parent="#accordion_three-eng-sem1">
-                <div class="accordion-contents">
-                         <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> General Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety precautions</span></p>
-                                                                        <p> <span class="spn_line_hght"> Lifting and handling tools</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety practice - Fire extinguishers</span></p>
-                                                                        <p> <span class="spn_line_hght"> Electrical safety</span></p>
-                                                                        <p> <span class="spn_line_hght"> First aid and Electrical mains</span></p>
-                                                                        <p> <span class="spn_line_hght"> Personal protective equipments (PPE's)</span></p>
-                                                                        <p> <span class="spn_line_hght"> 5S concepts and response to emergencies</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading2-eng-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse2-eng-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse2-eng-sem1">
-                         <b><span>Week 2 &amp;3</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;HAND TOOL SPECIFICATION
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse2-eng-sem1" class="collapse" aria-labelledby="accordion_three_heading2-eng-sem1" data-parent="#accordion_three-eng-sem1">
-                <div class="accordion-contents">
-                       <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Hand tool specifications</span></p>
-                                                                        <p> <span class="spn_line_hght"> Riveting of tags and lugs</span></p>
-                                                                        <p> <span class="spn_line_hght"> Cutting and bending of sheet metals</span></p>
-                                                                        <p> <span class="spn_line_hght"> Chassis and cabinets</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading3-eng-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse3-eng-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse3-eng-sem1">
-                        <b><span>Week 4 &amp; 5</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;BASICS OF AC AND ELECTRICAL CABLES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse3-eng-sem1" class="collapse" aria-labelledby="accordion_three_heading3-eng-sem1" data-parent="#accordion_three-eng-sem1">
-                <div class="accordion-contents">
-                     <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> circuit concepts</span></p>
-                                                                        <p> <span class="spn_line_hght"> Basics of AC and DC</span></p>
-                                                                        <p> <span class="spn_line_hght"> Insulators</span></p>
-                                                                        <p> <span class="spn_line_hght"> Conductor</span></p>
-                                                                        <p> <span class="spn_line_hght"> Introduction to cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of wires</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Precautions in using cables</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading4-eng-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse4-eng-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse4-eng-sem1">
-                         <b><span>Week 6</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;CELLS AND BATTERIES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse4-eng-sem1" class="collapse" aria-labelledby="accordion_three_heading4-eng-sem1" data-parent="#accordion_three-eng-sem1">
-                <div class="accordion-contents">
-                      <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Chemical effect of electrical current</span></p>
-                                                                        <p> <span class="spn_line_hght"> Secondary Cell</span></p>
-                                                                        <p> <span class="spn_line_hght"> Preparation of electrolyte</span></p>
-                                                                        <p> <span class="spn_line_hght"> Methods of charging batteries</span></p>
-                                                                        <p> <span class="spn_line_hght"> Grouping of cells</span></p>
-                                                                        <p> <span class="spn_line_hght"> Battery charger</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                             </div>
-
-                                 </div>
-           
-            
-                                <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-eng2" role="tabpanel" aria-labelledby="semTrade_theorysemester-eng2">
-
-                                        <div class="container ">
-
-                                                    <div class="accordion accordion_three" id="accordion_three-sem2-eng">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-1-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem2-1-eng"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem2-1-eng">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem2-1-eng" class="collapse show" aria-labelledby="accordion_three_heading-sem2-1-eng"
-                 data-parent="#accordion_three-sem2-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-2-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-2-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-2-eng">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-2-eng" class="collapse" aria-labelledby="accordion_three_heading-sem2-2-eng" data-parent="#accordion_three-sem2-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-3-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-3-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-3-eng">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-3-eng" class="collapse" aria-labelledby="accordion_three_heading-sem2-3-eng" data-parent="#accordion_three-sem2-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-4-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-4-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-4-eng">
-                        Friendly and sem2-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-4-eng" class="collapse" aria-labelledby="accordion_three_heading-sem2-4-eng" data-parent="#accordion_three-sem2-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                                         
-                                        </div>
-                                </div>
-        
-                               <div class="tab-pane animated fadeIn" id="semTrade_theorysemester-eng3" role="tabpanel" aria-labelledby="                       semTrade_theorysemester-eng3">
-                                         <div class="container ">
-                                                       <div class="accordion accordion_three" id="accordion_three-sem3-eng">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-1-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem3-1-eng"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem3-1-eng">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem3-1-eng" class="collapse show" aria-labelledby="accordion_three_heading-sem3-1-eng"
-                 data-parent="#accordion_three-sem3-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-2-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-2-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-2-eng">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-2-eng" class="collapse" aria-labelledby="accordion_three_heading-sem3-2-eng" data-parent="#accordion_three-sem3-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-3-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-3-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-3-eng">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-3-eng" class="collapse" aria-labelledby="accordion_three_heading-sem3-3-eng" data-parent="#accordion_three-sem3-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-4-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-4-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-4-eng">
-                        Friendly and sem3-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-4-eng" class="collapse" aria-labelledby="accordion_three_heading-sem3-4-eng" data-parent="#accordion_three-sem3-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                       </div>
-                                </div>
-
-                                                  <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-eng4" role="tabpanel" aria-labelledby="           semTrade_theorysemester-eng4">
-                              <div class="container ">
-                                                       <div class="accordion accordion_three" id="accordion_three-sem4-eng">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-1-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem4-1-eng"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem4-1-eng">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem4-1-eng" class="collapse show" aria-labelledby="accordion_three_heading-sem4-1-eng"
-                 data-parent="#accordion_three-sem4-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-2-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-2-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-2-eng">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-2-eng" class="collapse" aria-labelledby="accordion_three_heading-sem4-2-eng" data-parent="#accordion_three-sem4-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-3-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-3-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-3-eng">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-3-eng" class="collapse" aria-labelledby="accordion_three_heading-sem4-3-eng" data-parent="#accordion_three-sem4-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-4-eng">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-4-eng"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-4-eng">
-                        Friendly and sem4-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-4-eng" class="collapse" aria-labelledby="accordion_three_heading-sem4-4-eng" data-parent="#accordion_three-sem4-eng">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-
-                                            </div>
-                                           </div>
-
-
-        
-        </div>
-                              </div>
-
-            <div class="tab-pane animated fadeIn" id="info3" role="tabpanel" aria-labelledby="info_tab3">
-                      <div class="container ">
-                    <div class="tab_nav2 text-center">
-                        
-                                    <ul class="nav justify-content-center">
-
-
-                                            <li class="nav-item"><a class="nav-link active" href="#semTrade_theorysemester-work1" data-toggle="tab">semester-1</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-work2" data-toggle="tab">semester-2</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-work3" data-toggle="tab">semester-3</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-work4" data-toggle="tab">semester-4</a></li>
-
-                                        
-                                    </ul>
-                               
-                         </div>
-                        </div>
-                               <div class="tab-content tab--content2 padding-top" id="tabcontent-work">
-                        <div class="tab-pane animated fadeIn active" id="semTrade_theorysemester-work1" role="tabpanel" aria-labelledby="semTrade_theorysemester-work1">
-                               <div class="container ">
-                           <div class="accordion accordion_three" id="accordion_three-work-sem1">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading1-work-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse1-work-sem1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse1-work-sem1">
-                        <b><span>Week 1</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;Introduction to NCVT and safety practice
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse1-work-sem1" class="collapse show" aria-labelledby="accordion_three_heading1-work-sem1"
-                 data-parent="#accordion_three-work-sem1">
-                <div class="accordion-contents">
-                         <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> General Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety precautions</span></p>
-                                                                        <p> <span class="spn_line_hght"> Lifting and handling tools</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety practice - Fire extinguishers</span></p>
-                                                                        <p> <span class="spn_line_hght"> Electrical safety</span></p>
-                                                                        <p> <span class="spn_line_hght"> First aid and Electrical mains</span></p>
-                                                                        <p> <span class="spn_line_hght"> Personal protective equipments (PPE's)</span></p>
-                                                                        <p> <span class="spn_line_hght"> 5S concepts and response to emergencies</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading2-work-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse2-work-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse2-work-sem1">
-                         <b><span>Week 2 &amp;3</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;HAND TOOL SPECIFICATION
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse2-work-sem1" class="collapse" aria-labelledby="accordion_three_heading2-work-sem1" data-parent="#accordion_three-work-sem1">
-                <div class="accordion-contents">
-                       <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Hand tool specifications</span></p>
-                                                                        <p> <span class="spn_line_hght"> Riveting of tags and lugs</span></p>
-                                                                        <p> <span class="spn_line_hght"> Cutting and bending of sheet metals</span></p>
-                                                                        <p> <span class="spn_line_hght"> Chassis and cabinets</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading3-work-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse3-work-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse3-work-sem1">
-                        <b><span>Week 4 &amp; 5</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;BASICS OF AC AND ELECTRICAL CABLES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse3-work-sem1" class="collapse" aria-labelledby="accordion_three_heading3-work-sem1" data-parent="#accordion_three-work-sem1">
-                <div class="accordion-contents">
-                     <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> circuit concepts</span></p>
-                                                                        <p> <span class="spn_line_hght"> Basics of AC and DC</span></p>
-                                                                        <p> <span class="spn_line_hght"> Insulators</span></p>
-                                                                        <p> <span class="spn_line_hght"> Conductor</span></p>
-                                                                        <p> <span class="spn_line_hght"> Introduction to cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of wires</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Precautions in using cables</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading4-work-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse4-work-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse4-work-sem1">
-                         <b><span>Week 6</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;CELLS AND BATTERIES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse4-work-sem1" class="collapse" aria-labelledby="accordion_three_heading4-work-sem1" data-parent="#accordion_three-work-sem1">
-                <div class="accordion-contents">
-                      <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Chemical effect of electrical current</span></p>
-                                                                        <p> <span class="spn_line_hght"> Secondary Cell</span></p>
-                                                                        <p> <span class="spn_line_hght"> Preparation of electrolyte</span></p>
-                                                                        <p> <span class="spn_line_hght"> Methods of charging batteries</span></p>
-                                                                        <p> <span class="spn_line_hght"> Grouping of cells</span></p>
-                                                                        <p> <span class="spn_line_hght"> Battery charger</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                             </div>
-
-                                 </div>
-           
-            
-                                <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-work2" role="tabpanel" aria-labelledby="semTrade_theorysemester-work2">
-
-                                        <div class="container ">
-                                              <div class="accordion accordion_three" id="accordion_three-sem2-work">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-1--work">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem2-1--work"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem2-1--work">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem2-1--work" class="collapse show" aria-labelledby="accordion_three_heading-sem2-1--work"
-                 data-parent="#accordion_three-sem2--work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-2--work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-2--work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-2--work">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-2--work" class="collapse" aria-labelledby="accordion_three_heading-sem2-2--work" data-parent="#accordion_three-sem2--work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-3--work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-3--work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-3--work">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-3--work" class="collapse" aria-labelledby="accordion_three_heading-sem2-3--work" data-parent="#accordion_three-sem2--work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-4--work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-4--work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-4--work">
-                        Friendly and sem2-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-4--work" class="collapse" aria-labelledby="accordion_three_heading-sem2-4--work" data-parent="#accordion_three-sem2--work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                        </div>
-                                </div>
-        
-                               <div class="tab-pane animated fadeIn" id="semTrade_theorysemester-work3" role="tabpanel" aria-labelledby="                       semTrade_theorysemester-work3">
-                                         <div class="container ">
-                                                        <div class="accordion accordion_three" id="accordion_three-sem3-work">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-1-work">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem3-1-work"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem3-1-work">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem3-1-work" class="collapse show" aria-labelledby="accordion_three_heading-sem3-1-work"
-                 data-parent="#accordion_three-sem3-work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-2-work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-2-work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-2-work">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-2-work" class="collapse" aria-labelledby="accordion_three_heading-sem3-2-work" data-parent="#accordion_three-sem3-work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-3-work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-3-work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-3-work">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-3-work" class="collapse" aria-labelledby="accordion_three_heading-sem3-3-work" data-parent="#accordion_three-sem3-work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-4-work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-4-work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-4-work">
-                        Friendly and sem3-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-4-work" class="collapse" aria-labelledby="accordion_three_heading-sem3-4-work" data-parent="#accordion_three-sem3-work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                       </div>
-                                </div>
-
-                                                  <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-work4" role="tabpanel" aria-labelledby="           semTrade_theorysemester-work4">
-                              <div class="container ">
-                                                        <div class="accordion accordion_three" id="accordion_three-sem4-Work">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-1-Work">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem4-1-Work"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem4-1-Work">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem4-1-Work" class="collapse show" aria-labelledby="accordion_three_heading-sem4-1-Work"
-                 data-parent="#accordion_three-sem4-Work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-2-Work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-2-Work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-2-Work">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-2-Work" class="collapse" aria-labelledby="accordion_three_heading-sem4-2-Work" data-parent="#accordion_three-sem4-Work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-3-Work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-3-Work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-3-Work">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-3-Work" class="collapse" aria-labelledby="accordion_three_heading-sem4-3-Work" data-parent="#accordion_three-sem4-Work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-4-Work">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-4-Work"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-4-Work">
-                        Friendly and sem4-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-4-Work" class="collapse" aria-labelledby="accordion_three_heading-sem4-4-Work" data-parent="#accordion_three-sem4-Work">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                            </div>
-                                           </div>
-
-
-        
-        </div>
-            </div>
-
-                  <div class="tab-pane animated fadeIn show" id="info4" role="tabpanel" aria-labelledby="info_tab4">
-                    <div class="container ">
-                    <div class="tab_nav2 text-center">
-                        
-                                    <ul class="nav justify-content-center">
-
-
-                                            <li class="nav-item"><a class="nav-link active" href="#semTrade_theorysemester-emp1" data-toggle="tab">semester-1</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-emp2" data-toggle="tab">semester-2</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-emp3" data-toggle="tab">semester-3</a></li>
-                                            <li class="nav-item"><a  class="nav-link" href="#semTrade_theorysemester-emp4" data-toggle="tab">semester-4</a></li>
-
-                                        
-                                    </ul>
-                               
-                         </div>
-                        </div>
-
-                                <div class="tab-content tab--content2 padding-top" id="tabcontent-emp">
-                        <div class="tab-pane animated fadeIn active" id="semTrade_theorysemester-emp1" role="tabpanel" aria-labelledby="semTrade_theorysemester-emp1">
-                               <div class="container ">
-                                       <div class="accordion accordion_three" id="accordion_three-emp-sem1">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading1-emp-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse1-emp-sem1"
-                       aria-expanded="true" aria-controls="accordion_threecollapse1-emp-sem1">
-                        <b><span>Week 1</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;Introduction to NCVT and safety practice
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse1-emp-sem1" class="collapse show" aria-labelledby="accordion_three_heading1-emp-sem1"
-                 data-parent="#accordion_three-emp-sem1">
-                <div class="accordion-contents">
-                         <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> General Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety precautions</span></p>
-                                                                        <p> <span class="spn_line_hght"> Lifting and handling tools</span></p>
-                                                                        <p> <span class="spn_line_hght"> Safety practice - Fire extinguishers</span></p>
-                                                                        <p> <span class="spn_line_hght"> Electrical safety</span></p>
-                                                                        <p> <span class="spn_line_hght"> First aid and Electrical mains</span></p>
-                                                                        <p> <span class="spn_line_hght"> Personal protective equipments (PPE's)</span></p>
-                                                                        <p> <span class="spn_line_hght"> 5S concepts and response to emergencies</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading2-emp-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse2-emp-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse2-emp-sem1">
-                         <b><span>Week 2 &amp;3</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;HAND TOOL SPECIFICATION
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse2-emp-sem1" class="collapse" aria-labelledby="accordion_three_heading2-emp-sem1" data-parent="#accordion_three-emp-sem1">
-                <div class="accordion-contents">
-                       <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Hand tool specifications</span></p>
-                                                                        <p> <span class="spn_line_hght"> Riveting of tags and lugs</span></p>
-                                                                        <p> <span class="spn_line_hght"> Cutting and bending of sheet metals</span></p>
-                                                                        <p> <span class="spn_line_hght"> Chassis and cabinets</span></p>
-                                                            </div>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading3-emp-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse3-emp-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse3-emp-sem1">
-                        <b><span>Week 4 &amp; 5</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;BASICS OF AC AND ELECTRICAL CABLES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse3-emp-sem1" class="collapse" aria-labelledby="accordion_three_heading3-emp-sem1" data-parent="#accordion_three-emp-sem1">
-                <div class="accordion-contents">
-                     <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Introduction</span></p>
-                                                                        <p> <span class="spn_line_hght"> circuit concepts</span></p>
-                                                                        <p> <span class="spn_line_hght"> Basics of AC and DC</span></p>
-                                                                        <p> <span class="spn_line_hght"> Insulators</span></p>
-                                                                        <p> <span class="spn_line_hght"> Conductor</span></p>
-                                                                        <p> <span class="spn_line_hght"> Introduction to cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of wires</span></p>
-                                                                        <p> <span class="spn_line_hght"> Classification of cables</span></p>
-                                                                        <p> <span class="spn_line_hght"> Precautions in using cables</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading4-emp-sem1">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse4-emp-sem1"
-                       aria-expanded="false" aria-controls="accordion_threecollapse4-emp-sem1">
-                         <b><span>Week 6</span></b>&nbsp;&nbsp;-&nbsp;&nbsp;CELLS AND BATTERIES
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse4-emp-sem1" class="collapse" aria-labelledby="accordion_three_heading4-emp-sem1" data-parent="#accordion_three-emp-sem1">
-                <div class="accordion-contents">
-                      <div class="panel-body">
-                                                                        <p> <span class="spn_line_hght"> Chemical effect of electrical current</span></p>
-                                                                        <p> <span class="spn_line_hght"> Secondary Cell</span></p>
-                                                                        <p> <span class="spn_line_hght"> Preparation of electrolyte</span></p>
-                                                                        <p> <span class="spn_line_hght"> Methods of charging batteries</span></p>
-                                                                        <p> <span class="spn_line_hght"> Grouping of cells</span></p>
-                                                                        <p> <span class="spn_line_hght"> Battery charger</span></p>
-                                                            </div>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                             </div>
-
-                                 </div>
-           
-            
-                                <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-emp2" role="tabpanel" aria-labelledby="semTrade_theorysemester-emp2">
-
-                                        <div class="container ">
-                                  <div class="accordion accordion_three" id="accordion_three-sem2-emp">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-1-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem2-1-emp"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem2-1-emp">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem2-1-emp" class="collapse show" aria-labelledby="accordion_three_heading-sem2-1-emp"
-                 data-parent="#accordion_three-sem2-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-2-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-2-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-2-emp">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-2-emp" class="collapse" aria-labelledby="accordion_three_heading-sem2-2-emp" data-parent="#accordion_three-sem2-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-3-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-3-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-3-emp">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-3-emp" class="collapse" aria-labelledby="accordion_three_heading-sem2-3-emp" data-parent="#accordion_three-sem2-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem2-4-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem2-4-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem2-4-emp">
-                        Friendly and sem2-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem2-4-emp" class="collapse" aria-labelledby="accordion_three_heading-sem2-4-emp" data-parent="#accordion_three-sem2-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                        </div>
-                                </div>
-        
-                               <div class="tab-pane animated fadeIn" id="semTrade_theorysemester-emp3" role="tabpanel" aria-labelledby="                       semTrade_theorysemester-emp3">
-                                         <div class="container ">
-                                <div class="accordion accordion_three" id="accordion_three-sem3-emp">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-1-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem3-1-emp"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem3-1-emp">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem3-1-emp" class="collapse show" aria-labelledby="accordion_three_heading-sem3-1-emp"
-                 data-parent="#accordion_three-sem3-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-2-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-2-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-2-emp">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-2-emp" class="collapse" aria-labelledby="accordion_three_heading-sem3-2-emp" data-parent="#accordion_three-sem3-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-3-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-3-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-3-emp">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-3-emp" class="collapse" aria-labelledby="accordion_three_heading-sem3-3-emp" data-parent="#accordion_three-sem3-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem3-4-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem3-4-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem3-4-emp">
-                        Friendly and sem3-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem3-4-emp" class="collapse" aria-labelledby="accordion_three_heading-sem3-4-emp" data-parent="#accordion_three-sem3-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                       </div>
-                                </div>
-
-                                                  <div class="tab-pane animated fadeIn show" id="semTrade_theorysemester-emp4" role="tabpanel" aria-labelledby="           semTrade_theorysemester-emp4">
-                              <div class="container ">
-                                  <div class="accordion accordion_three" id="accordion_three-sem4-emp">
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-1-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="" data-toggle="collapse" data-target="#accordion_threecollapse-sem4-1-emp"
-                       aria-expanded="true" aria-controls="accordion_threecollapse-sem4-1-emp">
-                        Management and Technology Consulting
-                    </a>
-                </h6>
-            </div>
-
-            <div id="accordion_threecollapse-sem4-1-emp" class="collapse show" aria-labelledby="accordion_three_heading-sem4-1-emp"
-                 data-parent="#accordion_three-sem4-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-2-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-2-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-2-emp">
-                        Software Solutions
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-2-emp" class="collapse" aria-labelledby="accordion_three_heading-sem4-2-emp" data-parent="#accordion_three-sem4-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div>
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-3-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-3-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-3-emp">
-                        Support Services
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-3-emp" class="collapse" aria-labelledby="accordion_three_heading-sem4-3-emp" data-parent="#accordion_three-sem4-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-
-        <div class="accordion-single">
-            <div class="accordion-heading" id="accordion_three_heading-sem4-4-emp">
-                <h6 class="mb-0">
-                    <a href="#" class="collapsed " data-toggle="collapse" data-target="#accordion_threecollapse-sem4-4-emp"
-                       aria-expanded="false" aria-controls="accordion_threecollapse-sem4-4-emp">
-                        Friendly and sem4-aging Team
-                    </a>
-                </h6>
-            </div>
-            <div id="accordion_threecollapse-sem4-4-emp" class="collapse" aria-labelledby="accordion_three_heading-sem4-4-emp" data-parent="#accordion_three-sem4-emp">
-                <div class="accordion-contents">
-                    <p>Investig ationes demons trave runt letoes legere lius quod waunt saepius claritas Investig
-                        ationes demon trave rungt saepius clari kestas Investig avaina ationes demon.</p>
-                </div>
-            </div><!-- Ends: .collapse -->
-        </div><!-- Ends: .accordion-single -->
-    </div>
-                                            </div>
-                                           </div>
-
-
-        
-        </div>
-            </div>
-
-
-        
-        </div>
-    </div>
-    </section><!-- ends: .product-info-tab -->
-    <footer id="footer_section" class="footer5 footer--bw">
-        <?php include 'footer.php';?>
-    </footer>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+			
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="top_bar_container">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="top_bar_content d-flex flex-row align-items-center justify-content-start">
+								<div class="top_bar_phone"><span class="top_bar_title">phone:</span>+44 300 303 0266</div>
+								<div class="top_bar_right ml-auto">
+
+									<!-- Language -->
+									<div class="top_bar_lang">
+										<span class="top_bar_title">site language:</span>
+										<ul class="lang_list">
+											<li class="hassubs">
+												<a href="#">English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+												<ul>
+													<li><a href="#">Ukrainian</a></li>
+													<li><a href="#">Japanese</a></li>
+													<li><a href="#">Lithuanian</a></li>
+													<li><a href="#">Swedish</a></li>
+													<li><a href="#">Italian</a></li>
+												</ul>
+											</li>
+										</ul>
+									</div>
+
+									<!-- Social -->
+									<div class="top_bar_social">
+										<span class="top_bar_title social_title">follow us</span>
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+											<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+
+		<!-- Header Content -->
+		<div class="header_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-start">
+							<div class="logo_container mr-auto">
+								<a href="#">
+									<div class="logo_text">Lingua</div>
+								</a>
+							</div>
+							<nav class="main_nav_contaner">
+								<ul class="main_nav">
+									<li><a href="index.html">Home</a></li>
+									<li class="active"><a href="courses.html">Courses</a></li>
+									<li><a href="instructors.html">Instructors</a></li>
+									<li><a href="#">Events</a></li>
+									<li><a href="blog.html">Blog</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+							<div class="header_content_right ml-auto text-right">
+								<div class="header_search">
+									<div class="search_form_container">
+										<form action="#" id="search_form" class="search_form trans_400">
+											<input type="search" class="header_search_input trans_400" placeholder="Type for Search" required="required">
+											<div class="search_button">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</form>
+									</div>
+								</div>
+
+								<!-- Hamburger -->
+
+								<div class="user"><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></div>
+								<div class="hamburger menu_mm">
+									<i class="fa fa-bars menu_mm" aria-hidden="true"></i>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="search">
+			<form action="#" class="header_search_form menu_mm">
+				<input type="search" class="search_input menu_mm" placeholder="Search" required="required">
+				<button class="header_search_button d-flex flex-column align-items-center justify-content-center menu_mm">
+					<i class="fa fa-search menu_mm" aria-hidden="true"></i>
+				</button>
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Home</a></li>
+				<li class="menu_mm"><a href="courses.html">Courses</a></li>
+				<li class="menu_mm"><a href="instructors.html">Instructors</a></li>
+				<li class="menu_mm"><a href="#">Events</a></li>
+				<li class="menu_mm"><a href="blog.html">Blog</a></li>
+				<li class="menu_mm"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="menu_extra">
+			<div class="menu_phone"><span class="menu_title">phone:</span>+44 300 303 0266</div>
+			<div class="menu_social">
+				<span class="menu_title">follow us</span>
+				<ul>
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		<div class="breadcrumbs_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<ul class="breadcrumbs_list d-flex flex-row align-items-center justify-content-start">
+							<li><a href="index.html">home</a></li>
+							<li><a href="courses.html">courses</a></li>
+							<li><a href="courses.html">spanish</a></li>
+							<li>vocabulary</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Intro -->
+
+	<div class="intro">
+		<div class="intro_background parallax-window" data-parallax="scroll" data-image-src="images/intro.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="intro_container d-flex flex-column align-items-start justify-content-end">
+						<div class="intro_content">
+							<div class="intro_price">Free</div>
+							<div class="rating_r rating_r_4 intro_rating"><i></i><i></i><i></i><i></i><i></i></div>
+							<div class="intro_title">Vocabulary. Part 1</div>
+							<div class="intro_meta">
+								<div class="intro_image"><img src="images/intro_user.jpg" alt=""></div>
+								<div class="intro_instructors"><a href="instructors.html">Sarah Parker</a> and <span><a href="instructors.html">5 other instructors</a></span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Course -->
+
+	<div class="course">
+		<div class="course_top"></div>
+		<div class="container">
+			<div class="row row-lg-eq-height">
+
+				<!-- Panels -->
+				<div class="col-lg-9">
+					<div class="tab_panels">
+
+						<!-- Tabs -->
+						<div class="course_tabs_container">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-9">
+										<div class="tabs d-flex flex-row align-items-center justify-content-start">
+											<div class="tab active">description</div>
+											<div class="tab">curriculum</div>
+											<div class="tab">reviews</div>
+											<div class="tab">members</div>
+										</div>
+									</div>
+								</div>
+							</div>		
+						</div>
+
+						<!-- Description -->
+						<div class="tab_panel description active">
+							<div class="panel_title">About this course</div>
+							<div class="panel_text">
+								<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula, aliquam neque euismod, porttitor ex. Nam consequat iaculis maximus. Suspendisse potenti. In rutrum justo et diam egestas luctus. Mauris eu neque eget odio suscipit eleifend. Sed imperdiet ante quis felis tempor hendrerit. Curabitur eget fermentum ipsum. Sed efficitur eget velit eu vulputate. Duis tincidunt quam in erat dignissim consequat. Praesent tempus leo eu nisl fringilla interdum. Maecenas rutrum libero eget lacus bibendum tristique. Curabitur at felis lobortis, mollis ante ut, tempus elit. Morbi justo nisi, posuere sed augue id, iaculis tincidunt mi. Pellentesque sed dolor sed dui congue tempus a et felis.</p>
+							</div>
+							
+							<!-- Instructors -->
+							<div class="instructors">
+								<div class="panel_title">All instructors</div>
+								<div class="row instructors_row">
+
+									<!-- Instructor -->
+									<div class="col-lg-4 col-md-6">
+										<div class="instructor d-flex flex-row align-items-center justify-content-start">
+											<div class="instructor_image"><div><img src="images/instructor_4.jpg" alt=""></div></div>
+											<div class="instructor_content">
+												<div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+												<div class="instructor_title">Teacher</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Instructor -->
+									<div class="col-lg-4 col-md-6">
+										<div class="instructor d-flex flex-row align-items-center justify-content-start">
+											<div class="instructor_image"><div><img src="images/instructor_5.jpg" alt=""></div></div>
+											<div class="instructor_content">
+												<div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+												<div class="instructor_title">Teacher</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Instructor -->
+									<div class="col-lg-4 col-md-6">
+										<div class="instructor d-flex flex-row align-items-center justify-content-start">
+											<div class="instructor_image"><div><img src="images/instructor_6.jpg" alt=""></div></div>
+											<div class="instructor_content">
+												<div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+												<div class="instructor_title">Teacher</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Instructor -->
+									<div class="col-lg-4 col-md-6">
+										<div class="instructor d-flex flex-row align-items-center justify-content-start">
+											<div class="instructor_image"><div><img src="images/instructor_7.jpg" alt=""></div></div>
+											<div class="instructor_content">
+												<div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+												<div class="instructor_title">Teacher</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Instructor -->
+									<div class="col-lg-4 col-md-6">
+										<div class="instructor d-flex flex-row align-items-center justify-content-start">
+											<div class="instructor_image"><div><img src="images/instructor_8.jpg" alt=""></div></div>
+											<div class="instructor_content">
+												<div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+												<div class="instructor_title">Teacher</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Instructor -->
+									<div class="col-lg-4 col-md-6">
+										<div class="instructor d-flex flex-row align-items-center justify-content-start">
+											<div class="instructor_image"><div><img src="images/instructor_9.jpg" alt=""></div></div>
+											<div class="instructor_content">
+												<div class="instructor_name"><a href="instructors.html">Sarah Parker</a></div>
+												<div class="instructor_title">Teacher</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- FAQs -->
+							<div class="faqs">
+								<div class="panel_title">FAQs</div>
+								<div class="accordions">
+												
+									<div class="elements_accordions">
+
+										<div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center active"><div>Can I just enroll in a single course? I'm not interested in the entire Specializat</div></div>
+											<div class="accordion_panel">
+												<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula, aliquam neque euismod, porttitor ex. Nam consequat iaculis maximus.</p>
+											</div>
+										</div>
+
+										<div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center"><div>What is the refund policy?</div></div>
+											<div class="accordion_panel">
+												<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula, aliquam neque euismod, porttitor ex. Nam consequat iaculis maximus.</p>
+											</div>
+										</div>
+
+										<div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center"><div>What background knowledge is necessary</div></div>
+											<div class="accordion_panel">
+												<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula, aliquam neque euismod, porttitor ex. Nam consequat iaculis maximus.</p>
+											</div>
+										</div>
+
+										<div class="accordion_container">
+											<div class="accordion d-flex flex-row align-items-center"><div>Do i need to take the courses in a specific ord</div></div>
+											<div class="accordion_panel">
+												<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula, aliquam neque euismod, porttitor ex. Nam consequat iaculis maximus.</p>
+											</div>
+										</div>
+
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<!-- Curriculum -->
+						<div class="tab_panel curriculum">
+							<div class="panel_title">Syllabus</div>
+							<div class="panel_text">
+								<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula, aliquam neque euismod, porttitor ex. Nam consequat iaculis maximus. Suspendisse potenti. In rutrum justo et diam egestas luctus. Mauris eu neque eget odio suscipit eleifend. Sed imperdiet ante quis felis tempor hendrerit. Curabitur eget fermentum ipsum. Sed efficitur eget velit eu vulputate. Duis tincidunt quam in erat dignissim consequat. Praesent tempus leo eu nisl fringilla interdum. Maecenas rutrum libero eget lacus bibendum tristique. Curabitur at felis lobortis, mollis ante ut, tempus elit. Morbi justo nisi, posuere sed augue id, iaculis tincidunt mi. Pellentesque sed dolor sed dui congue tempus a et felis.</p>
+							</div>
+							<div class="curriculum_items">
+								<div class="cur_item">
+									<div class="cur_title_container d-flex flex-row align-items-start justify-content-start">
+										<div class="cur_title">Week 1</div>
+										<div class="cur_num ml-auto">0/4</div>
+									</div>
+									<div class="cur_item_content">
+										<div class="cur_item_title">Beginners Level</div>
+										<div class="cur_item_text">
+											<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum.</p>
+										</div>
+										<div class="cur_contents">
+											<ul>
+												<li>
+													<i class="fa fa-folder" aria-hidden="true"></i><span>1 video, 1 audio, 1 reading</span>
+													<ul>
+														<li class="d-flex flex-row align-items-center justify-content-start">
+															<i class="fa fa-video-camera" aria-hidden="true"></i><span>Video: <a href="#">Greetings and Introductions</a></span>
+															<div class="cur_time ml-auto"><i class="fa fa-clock-o" aria-hidden="true"></i><span>15 minutes</span></div>
+														</li>
+														<li class="d-flex flex-row align-items-center justify-content-start">
+															<i class="fa fa-file" aria-hidden="true"></i><span>Reading: <a href="#">Word Types</a></span>
+															<div class="cur_time ml-auto"><i class="fa fa-clock-o" aria-hidden="true"></i><span>15 minutes</span></div>
+														</li>
+														<li class="d-flex flex-row align-items-center justify-content-start">
+															<i class="fa fa-volume-up" aria-hidden="true"></i><span>Audio: <a href="#">Listening Exercise</a></span>
+															<div class="cur_time ml-auto"><i class="fa fa-clock-o" aria-hidden="true"></i><span>15 minutes</span></div>
+														</li>
+													</ul>
+												</li>
+												<li class="d-flex flex-row align-items-center justify-content-start">
+													<i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Graded: Cumulative Language Quiz</span>
+													<div class="cur_time ml-auto"><span>3 Questions</span></div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="cur_item">
+									<div class="cur_title_container d-flex flex-row align-items-start justify-content-start">
+										<div class="cur_title">Week 2</div>
+										<div class="cur_num ml-auto">0/5</div>
+									</div>
+									<div class="cur_item_content">
+										<div class="cur_item_title">Intermediate Level</div>
+										<div class="cur_item_text">
+											<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum.</p>
+										</div>
+										<div class="cur_contents">
+											<ul>
+												<li>
+													<i class="fa fa-folder" aria-hidden="true"></i><span>1 video, 1 audio, 1 reading</span>
+													<ul>
+														<li class="d-flex flex-row align-items-center justify-content-start">
+															<i class="fa fa-video-camera" aria-hidden="true"></i><span>Video: <a href="#">Greetings and Introductions</a></span>
+															<div class="cur_time ml-auto"><i class="fa fa-clock-o" aria-hidden="true"></i><span>15 minutes</span></div>
+														</li>
+														<li class="d-flex flex-row align-items-center justify-content-start">
+															<i class="fa fa-file" aria-hidden="true"></i><span>Reading: <a href="#">Word Types</a></span>
+															<div class="cur_time ml-auto"><i class="fa fa-clock-o" aria-hidden="true"></i><span>15 minutes</span></div>
+														</li>
+														<li class="d-flex flex-row align-items-center justify-content-start">
+															<i class="fa fa-volume-up" aria-hidden="true"></i><span>Audio: <a href="#">Listening Exercise</a></span>
+															<div class="cur_time ml-auto"><i class="fa fa-clock-o" aria-hidden="true"></i><span>15 minutes</span></div>
+														</li>
+													</ul>
+												</li>
+												<li class="d-flex flex-row align-items-center justify-content-start">
+													<i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Graded: Cumulative Language Quiz</span>
+													<div class="cur_time ml-auto"><span>3 Questions</span></div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Reviews -->
+						<div class="tab_panel reviews">
+							<div class="panel_title">Reviews</div>
+							<div class="panel_text">
+								<p>Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris pri eu. At soleat maiorum platonem vix, no mei case fierent. Primis quidam ancillae te mei.</p>
+							</div>
+							<div class="cur_ratings_container clearfix">
+								<div class="cur_rating d-flex flex-column align-items-center justify-content-center">
+									<div class="cur_rating_num">4,5</div>
+									<div class="rating_r rating_r_4 cur_stars"><i></i><i></i><i></i><i></i><i></i></div>
+									<div class="cur_rating_text">Rated 5 out of 3 Ratings</div>
+								</div>
+								<div class="cur_rating_progress d-flex flex-column align-items-center justify-content-center">
+									<div class="cur_progress d-flex flex-row align-items-center justify-content-between">
+										<span>5 stars</span>
+										<div id="cur_pbar_1" class="cur_pbar" data-perc="0.80"></div>
+									</div>
+									<div class="cur_progress d-flex flex-row align-items-center justify-content-between">
+										<span>5 stars</span>
+										<div id="cur_pbar_2" class="cur_pbar" data-perc="0.20"></div>
+									</div>
+									<div class="cur_progress d-flex flex-row align-items-center justify-content-between">
+										<span>5 stars</span>
+										<div id="cur_pbar_3" class="cur_pbar" data-perc="0.0"></div>
+									</div>
+									<div class="cur_progress d-flex flex-row align-items-center justify-content-between">
+										<span>5 stars</span>
+										<div id="cur_pbar_4" class="cur_pbar" data-perc="0.0"></div>
+									</div>
+									<div class="cur_progress d-flex flex-row align-items-center justify-content-between">
+										<span>5 stars</span>
+										<div id="cur_pbar_5" class="cur_pbar" data-perc="0.0"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="cur_reviews">
+
+								<!-- Review -->
+								<div class="review">
+									<div class="review_title_container d-flex flex-row align-items-start justify-content-start">
+										<div class="review_title d-flex flex-row align-items-center justify-content-center">
+											<div class="review_author_image"><div><img src="images/review_1.jpg" alt=""></div></div>
+											<div class="review_author">
+												<div class="review_author_name"><a href="#">Sarah Parker</a></div>
+												<div class="review_date">Sep 29, 2017 at 9:48 am</div>
+											</div>
+										</div>
+										<div class="review_stars ml-auto"><div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div></div>
+									</div>
+									<div class="review_text">
+										<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula.</p>
+									</div>
+								</div>
+
+								<!-- Review -->
+								<div class="review">
+									<div class="review_title_container d-flex flex-row align-items-start justify-content-start">
+										<div class="review_title d-flex flex-row align-items-center justify-content-center">
+											<div class="review_author_image"><div><i class="fa fa-user" aria-hidden="true"></i></div></div>
+											<div class="review_author">
+												<div class="review_author_name"><a href="#">Sarah Parker</a></div>
+												<div class="review_date">Sep 29, 2017 at 9:48 am</div>
+											</div>
+										</div>
+										<div class="review_stars ml-auto"><div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div></div>
+									</div>
+									<div class="review_text">
+										<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula.</p>
+									</div>
+								</div>
+
+								<!-- Review -->
+								<div class="review">
+									<div class="review_title_container d-flex flex-row align-items-start justify-content-start">
+										<div class="review_title d-flex flex-row align-items-center justify-content-center">
+											<div class="review_author_image"><div><i class="fa fa-user" aria-hidden="true"></i></div></div>
+											<div class="review_author">
+												<div class="review_author_name"><a href="#">Sarah Parker</a></div>
+												<div class="review_date">Sep 29, 2017 at 9:48 am</div>
+											</div>
+										</div>
+										<div class="review_stars ml-auto"><div class="rating_r rating_r_4 review_rating"><i></i><i></i><i></i><i></i><i></i></div></div>
+									</div>
+									<div class="review_text">
+										<p>Nam egestas lorem ex, sit amet commodo tortor faucibus a. Suspendisse commodo, turpis a dapibus fermentum, turpis ipsum rhoncus massa, sed commodo nisi lectus id ipsum. Sed nec elit vehicula.</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<!-- Members -->
+						<div class="tab_panel members">
+							<div class="panel_title">Members</div>
+							<div class="panel_text">
+								<p>Lorem ipsum dolor sit amet, te eros consulatu pro, quem labores petentium no sea, atqui posidonium interpretaris pri eu. At soleat maiorum platonem vix, no mei case fierent. Primis quidam ancillae te mei.</p>
+							</div>
+							<div class="members_list d-flex flex-row flex-wrap align-items-start justify-content-start">
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_1.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_0.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_0.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_2.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_3.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_4.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_0.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_5.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_6.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_0.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_7.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_8.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_0.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_9.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+
+								<!-- Member -->
+								<div class="member">
+									<div class="member_image"><img src="images/member_0.jpg" alt=""></div>
+									<div class="member_title"><a href="#">Sarah Parker</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Sidebar -->
+				<div class="col-lg-3">
+					<div class="sidebar">
+						<div class="sidebar_background"></div>
+						<div class="sidebar_top"><a href="#">buy course</a></div>
+						<div class="sidebar_content">
+
+							<!-- Features -->
+							<div class="sidebar_section features">
+								<div class="sidebar_title">Course Features</div>
+								<div class="features_content">
+									<ul class="features_list">
+
+										<!-- Feature -->
+										<li class="d-flex flex-row align-items-start justify-content-start">
+											<div class="feature_title"><i class="fa fa-clock-o" aria-hidden="true"></i><span>Duration</span></div>
+											<div class="feature_text ml-auto">2 weeks</div>
+										</li>
+
+										<!-- Feature -->
+										<li class="d-flex flex-row align-items-start justify-content-start">
+											<div class="feature_title"><i class="fa fa-bell" aria-hidden="true"></i><span>Lectures</span></div>
+											<div class="feature_text ml-auto">10</div>
+										</li>
+
+										<!-- Feature -->
+										<li class="d-flex flex-row align-items-start justify-content-start">
+											<div class="feature_title"><i class="fa fa-id-badge" aria-hidden="true"></i><span>Quizzes</span></div>
+											<div class="feature_text ml-auto">3</div>
+										</li>
+
+										<!-- Feature -->
+										<li class="d-flex flex-row align-items-start justify-content-start">
+											<div class="feature_title"><i class="fa fa-thumbs-up" aria-hidden="true"></i><span>Pass Percentage</span></div>
+											<div class="feature_text ml-auto">60</div>
+										</li>
+
+										<!-- Feature -->
+										<li class="d-flex flex-row align-items-start justify-content-start">
+											<div class="feature_title"><i class="fa fa-thumbs-down" aria-hidden="true"></i><span>Max Retakes</span></div>
+											<div class="feature_text ml-auto">5</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<!-- Cert -->
+							<div class="sidebar_section cert">
+								<div class="sidebar_title">Certification</div>
+								<div class="cert_image"><img src="images/cert.jpg" alt=""></div>
+							</div>
+
+							<!-- You may like -->
+							<div class="sidebar_section like">
+								<div class="sidebar_title">You may like</div>
+								<div class="like_items">
+
+									<!-- Like Item -->
+									<div class="like_item d-flex flex-row align-items-end justify-content-start">
+										<div class="like_title_container">
+											<div class="like_title">Vocabulary</div>
+											<div class="like_subtitle">Spanish</div>
+										</div>
+										<div class="like_price ml-auto">Free</div>
+									</div>
+									<!-- Like Item -->
+									<div class="like_item d-flex flex-row align-items-end justify-content-start">
+										<div class="like_title_container">
+											<div class="like_title">Vocabulary</div>
+											<div class="like_subtitle">Spanish</div>
+										</div>
+										<div class="like_price ml-auto">Free</div>
+									</div>
+									<!-- Like Item -->
+									<div class="like_item d-flex flex-row align-items-end justify-content-start">
+										<div class="like_title_container">
+											<div class="like_title">Vocabulary</div>
+											<div class="like_subtitle">Spanish</div>
+										</div>
+										<div class="like_price ml-auto">Free</div>
+									</div>
+									<!-- Like Item -->
+									<div class="like_item d-flex flex-row align-items-end justify-content-start">
+										<div class="like_title_container">
+											<div class="like_title">Vocabulary</div>
+											<div class="like_subtitle">Spanish</div>
+										</div>
+										<div class="like_price ml-auto">Free</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_body">
+			<div class="container">
+				<div class="row">
+
+					<!-- Newsletter -->
+					<div class="col-lg-3 footer_col">
+						<div class="newsletter_container d-flex flex-column align-items-start justify-content-end">
+							<div class="footer_logo mb-auto"><a href="#">Lingua</a></div>
+							<div class="footer_title">Subscribe</div>
+							<form action="#" id="newsletter_form" class="newsletter_form">
+								<input type="email" class="newsletter_input" placeholder="Email" required="required">
+								<button class="newsletter_button"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+							</form>
+						</div>
+					</div>
+
+					<!-- About -->
+					<div class="col-lg-2 offset-lg-3 footer_col">
+						<div>
+							<div class="footer_title">About Us</div>
+							<ul class="footer_list">
+								<li><a href="#">Courses</a></li>
+								<li><a href="#">Team</a></li>
+								<li><a href="#">Brand Guidelines</a></li>
+								<li><a href="#">Jobs</a></li>
+								<li><a href="#">Advertise with us</a></li>
+								<li><a href="#">Press</a></li>
+								<li><a href="#">Contact us</a></li>
+							</ul>
+						</div>
+					</div>
+
+					<!-- Help & Support -->
+					<div class="col-lg-2 footer_col">
+						<div class="footer_title">Help & Support</div>
+						<ul class="footer_list">
+							<li><a href="#">Discussions</a></li>
+							<li><a href="#">Troubleshooting</a></li>
+							<li><a href="#">Duolingo FAQs</a></li>
+							<li><a href="#">Schools FAQs</a></li>
+							<li><a href="#">Duolingo English Test FAQs</a></li>
+							<li><a href="#">Status</a></li>
+						</ul>
+					</div>
+
+					<!-- Privacy -->
+					<div class="col-lg-2 footer_col clearfix">
+						<div>
+							<div class="footer_title">Privacy & Terms</div>
+							<ul class="footer_list">
+								<li><a href="#">Community Guidelines</a></li>
+								<li><a href="#">Terms</a></li>
+								<li><a href="#">Brand Guidelines</a></li>
+								<li><a href="#">Privacy</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="copyright_content d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-start">
+							<div class="cr"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> &amp; distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+							<div class="cr_right ml-md-auto">
+								<div class="footer_phone"><span class="cr_title">phone:</span>+44 300 303 0266</div>
+								<div class="footer_social">
+									<span class="cr_social_title">follow us</span>
+									<ul>
+										<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+										<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="js/course.js"></script>
 </body>
-
-
 </html>
